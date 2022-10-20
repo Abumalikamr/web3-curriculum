@@ -32,7 +32,7 @@
     "build-a-fundraising-smart-contract/.tests": true,
     "build-a-peer-to-peer-network": true,
     "build-a-smart-contract-in-rust": true,
-    "build-a-video-game-marketplace-blockchain": true,
+    "build-a-video-game-marketplace-blockchain": false,
     "build-a-video-game-marketplace-blockchain/.tests": true,
     "build-a-web3-client-side-package-for-your-dapp": true,
     "learn-basic-rust-by-building-a-cli-wallet": true,
@@ -45,7 +45,10 @@
     "bash": {
       "path": "bash",
       "icon": "terminal-bash",
-      "args": ["--init-file", "./bash/sourcerer.sh"]
+      "args": [
+        "--init-file",
+        "./bash/sourcerer.sh"
+      ]
     }
   },
   "workbench.colorTheme": "freeCodeCamp Dark Theme"
